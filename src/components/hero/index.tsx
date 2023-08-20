@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="text-white mt-10">
+    <article className="text-white mt-10">
       <h1 className="mb-4 text-4xl whitespace-nowrap font-bold tracking-wide leading-none uppercase  text-gray-900 md:text-5xl lg:text-8xl dark:text-white">
         Lorem ipsum
       </h1>
@@ -20,7 +20,7 @@ const Hero = () => {
             <Image
               className=" mr-2"
               src="/icon1.svg"
-              alt="logo"
+              alt="Doler sit"
               width={20}
               height={20}
             />
@@ -38,7 +38,7 @@ const Hero = () => {
             <Image
               className=" mr-2"
               src="/icon2.svg"
-              alt="logo"
+              alt="Doler sit"
               width={20}
               height={20}
             />
@@ -48,7 +48,7 @@ const Hero = () => {
           <Image
             className="mr-2"
             src="/img-1.png"
-            alt="logo"
+            alt="smiling woman in front of a coca cola vending machine"
             width={500}
             height={500}
           />
@@ -65,14 +65,14 @@ const Hero = () => {
             <Image
               className=" mr-2"
               src="/icon3.svg"
-              alt="logo"
+              alt="Donec sit"
               width={20}
               height={20}
             />
           </div>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 

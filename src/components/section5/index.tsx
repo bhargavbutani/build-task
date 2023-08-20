@@ -38,7 +38,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
                 <Image
                   className=" mr-2"
                   src="/add.svg"
-                  alt="logo"
+                  alt="Accordian plus icon"
                   width={20}
                   height={20}
                 />
@@ -46,7 +46,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
                 <Image
                   className=" mr-2"
                   src="/remove.svg"
-                  alt="logo"
+                  alt="Accordian minus icon"
                   width={20}
                   height={20}
                 />

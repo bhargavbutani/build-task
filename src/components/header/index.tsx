@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Accordion from "../section5";
 import LineAnimation from "../lineanimation";
 import Link from "next/link";
 
@@ -21,7 +20,7 @@ const Header = () => {
                 <Image
                   className=" mr-2"
                   src="/logo.png"
-                  alt="logo"
+                  alt="company logo"
                   width={50}
                   height={50}
                 />
@@ -30,28 +29,6 @@ const Header = () => {
             <div>Lorem</div>
           </div>
         </div>
-        {/* <ul className="space-x-4 hidden md:flex">
-          <li>
-            <a href="#" className="hover:text-gray-300">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:text-gray-300">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:text-gray-300">
-              Services
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:text-gray-300">
-              Contact
-            </a>
-          </li>
-        </ul> */}
         <div className="md:hidden bg-black">
           <div className="flex items-center px-5 justify-between">
             <div className="text-xl font-semibold ">
@@ -59,7 +36,7 @@ const Header = () => {
                 <Image
                   className=" mr-2"
                   src="/logo.png"
-                  alt="logo"
+                  alt="Main logo"
                   width={50}
                   height={50}
                 />
@@ -71,7 +48,7 @@ const Header = () => {
                 <Image
                   className=" mr-2"
                   src="/toggle2.svg"
-                  alt="logo"
+                  alt="Burger menu icon"
                   width={20}
                   height={20}
                 />
@@ -79,7 +56,7 @@ const Header = () => {
                 <Image
                   className=" mr-2"
                   src="/close.svg"
-                  alt="logo"
+                  alt="Close menu icon"
                   width={20}
                   height={20}
                 />
@@ -132,18 +109,18 @@ const Header = () => {
                   </li>
                   <div>
                     <li className="flex justify-between gap-12">
-                      <a
-                        href="#"
+                      <Link
+                        href="/#"
                         className="text-[#666666] font-bold  text-xl tracking-wide uppercase"
                       >
                         lore ipsum
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        href="/#"
                         className="text-[#666666] font-bold  text-xl tracking-wide uppercase"
                       >
                         COMMING SOON
-                      </a>
+                      </Link>
                     </li>
                   </div>
                 </ul>

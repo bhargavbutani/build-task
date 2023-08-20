@@ -3,7 +3,7 @@ import React from "react";
 
 const Section3 = () => {
   return (
-    <div className="mt-10">
+    <article className="mt-10">
       <h1 className="mb-4 text-4xl font-extrabold tracking-wide  leading-none uppercase md:text-5xl lg:text-6xl text-white">
         Lorem ipsum <br /> dolor sit
       </h1>
@@ -23,7 +23,7 @@ const Section3 = () => {
             <Image
               className=" mr-2"
               src="/icon7.svg"
-              alt="logo"
+              alt="Lorem ipsum dolor"
               width={20}
               height={20}
             />
@@ -43,7 +43,7 @@ const Section3 = () => {
             <Image
               className=" mr-2"
               src="/icon8.svg"
-              alt="logo"
+              alt="Lorem ipsum dolor"
               width={20}
               height={20}
             />
@@ -57,7 +57,7 @@ const Section3 = () => {
           <Image
             className=" mr-2"
             src="/img-5.png"
-            alt="logo"
+            alt="a man with laughing face with blushing cheeks"
             width={500}
             height={500}
           />
@@ -76,14 +76,14 @@ const Section3 = () => {
             <Image
               className=" mr-2"
               src="/icon9.svg"
-              alt="logo"
+              alt="Lorem ipsum dolor"
               width={20}
               height={20}
             />
           </div>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 

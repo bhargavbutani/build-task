@@ -9,18 +9,18 @@ import Accordion from "@/components/section5";
 export default function Home() {
   return (
     <div className="mb-20">
-      <div className="container mx-auto max-w-[1290px] px-5 mt-16">
+      <section className="container mx-auto max-w-[1290px] px-5 mt-16">
         <Hero />
         <Section2 />
-        <div className="hidden md:block">
+        <section className="hidden md:block">
           <About />
-        </div>
-      </div>
+        </section>
+      </section>
       <LineAnimation />
-      <div className="container mx-auto max-w-6xl px-5">
+      <section className="container mx-auto max-w-6xl px-5">
         <Section3 />
         <Section4 />
-      </div>
+      </section>
       <Accordion />
     </div>
   );
